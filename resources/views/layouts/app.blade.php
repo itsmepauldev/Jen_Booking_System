@@ -21,7 +21,7 @@
 
         <!-- Sidebar -->
         <aside class="w-64 bg-gray-800 p-6 text-white space-y-6 min-h-screen">
-            <h2 class="text-2xl font-bold mb-6">Admin Panel</h2>
+            <h2 class="text-2xl font-bold mb-6">Cubacob</h2>
 
             <nav class="space-y-2">
                 <!-- Dashboard -->
