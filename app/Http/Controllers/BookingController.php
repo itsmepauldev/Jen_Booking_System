@@ -23,8 +23,8 @@ class BookingController extends Controller
         $request->validate([
             'title' => 'required|string|max:255',
             'description' => 'nullable|string',
-            'book_date' => 'required|date',
-            'book_time' => 'required',
+            'date' => 'required|date',
+            'time' => 'required',
         ]);
 
         Booking::create($request->all());
@@ -43,8 +43,8 @@ class BookingController extends Controller
         $request->validate([
             'title' => 'required|string|max:255',
             'description' => 'nullable|string',
-            'book_date' => 'required|date',
-            'book_time' => 'required',
+            'date' => 'required|date',
+            'time' => 'required',
         ]);
 
         $booking = Booking::findOrFail($id);
